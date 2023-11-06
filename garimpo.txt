@@ -1,0 +1,11 @@
+O Eloquent é um mapeador objecto-relacional (ORM), que permite ter um "Modelo" para cada tabela do banco de dados. Ele permite executar as operações do CRUD(Inserir, receber, actualizar e remover).
+
+Gerar um Modelo
+    php artisan make:model Flight
+
+Gerar a migração para o banco de dados depois de criar o modelo:
+    php artisan make:model Flight --migration
+
+Ou pode apenas executar em uma linha
+    php artisan make:model Flight -m
+
